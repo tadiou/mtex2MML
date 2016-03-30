@@ -19,7 +19,7 @@ fi
 
 if [ ${TRAVIS_OS_NAME:-'linux'} = 'linux' ]
 then
-    echo 'yes' | sudo add-apt-repository ppa:kalakris/cmake
+    # echo 'yes' | sudo add-apt-repository ppa:kalakris/cmake
     # sudo apt-get update -qq
     # sudo apt-get install -qq cmake python3 valgrind
 elif [ ${TRAVIS_OS_NAME:-'linux'} = 'osx' ]
